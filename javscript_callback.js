@@ -19,3 +19,10 @@ function b(v1, v2) {
 a.sort(b);
 
 console.log(a);  // sort - reverse
+
+//콜백함수! 사용
+a.sort(function (v1, v2) {
+    return v2 - v1;
+});
+console.log(a);
+
